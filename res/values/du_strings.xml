@@ -295,8 +295,12 @@
     <string name="ambient_doze_auto_brightness_title">Ambient auto brightness</string>
     <string name="ambient_doze_auto_brightness_summary">Use last screen-on brightness value for Ambient Display or Lift to Wake screen</string>
 
-    <!-- Development Settings summary-->
+    <!-- Development Settings summary -->
     <string name="adb_enabled">ADB Enabled</string>
     <string name="adb_disabled">ADB Disabled</string>
+
+    <!-- Disable battery saver warning color -->
+    <string name="battery_saver_color_title">Warning color</string>
+    <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
 
 </resources>
