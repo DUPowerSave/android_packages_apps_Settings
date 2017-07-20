@@ -189,7 +189,11 @@
     <string name="app_ops_cat_media">Media</string>
     <string name="app_ops_cat_device">Device</string>
     <string name="app_ops_access_camera">camera</string>
-    <string name="app_ops_access_location">location</string>
+    <string name="app_ops_coarse_location">coarse location</string>
+    <string name="app_ops_fine_location">fine location</string>
+    <string name="app_ops_gps_location">GPS location</string>
+    <string name="app_ops_monitor_location">monitor location</string>
+    <string name="app_ops_monitor_high_power_location">monitor high power location</string>
     <string name="app_ops_access_notifications">notifications</string>
     <string name="app_ops_activate_vpn">VPN</string>
     <string name="app_ops_auto_start">autostart</string>
@@ -248,6 +252,7 @@
     <string name="app_ops_turn_on_screen">turn screen on</string>
     <string name="app_ops_get_accounts">device accounts</string>
     <string name="app_ops_run_in_background">run in background</string>
+    <string name="app_ops_wake_from_idle">wake from idle</string>
 
     <!-- Force authorize substratum packages -->
     <string name="force_authorize_substratum_packages_title">Force authorize every theme app</string>

@@ -157,7 +157,11 @@
   <string name="app_ops_cat_media">Мультимедиа</string>
   <string name="app_ops_cat_device">Устройство</string>
   <string name="app_ops_access_camera">камера</string>
-  <string name="app_ops_access_location">местоположение</string>
+  <string name="app_ops_coarse_location">приблизительное местоположение</string>
+  <string name="app_ops_fine_location">точное местоположение</string>
+  <string name="app_ops_gps_location">GPS местоположение</string>
+  <string name="app_ops_monitor_location">монитор местоположения</string>
+  <string name="app_ops_monitor_high_power_location">HP монитор местоположения</string>
   <string name="app_ops_access_notifications">уведомления</string>
   <string name="app_ops_activate_vpn">VPN</string>
   <string name="app_ops_auto_start">автозапуск</string>
@@ -216,6 +220,7 @@
   <string name="app_ops_turn_on_screen">включить экран</string>
   <string name="app_ops_get_accounts">получить аккаунт</string>
   <string name="app_ops_run_in_background">запуск в фоновом режиме</string>
+  <string name="app_ops_wake_from_idle">пробуждать из сна</string>
     <!-- Force authorize substratum packages -->
   <string name="force_authorize_substratum_packages_title">Разрешить установку тем из неизвестных источников</string>
   <string name="force_authorize_substratum_packages_summary">Принудительно запрашивать разрешения для каждой темы</string>

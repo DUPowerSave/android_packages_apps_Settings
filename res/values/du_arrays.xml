@@ -116,11 +116,11 @@
     <!-- User display names for app ops codes -->
     <string-array name="app_ops_labels_custom" translatable="false">
         <!-- OP_COARSE_LOCATION -->
-        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_coarse_location</item>
         <!-- OP_FINE_LOCATION -->
-        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_fine_location</item>
         <!-- OP_GPS -->
-        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_gps_location</item>
         <!-- OP_VIBRATE -->
         <item>@string/app_ops_use_vibrate</item>
         <!-- OP_READ_CONTACTS -->
@@ -198,9 +198,9 @@
         <!-- OP_WAKE_LOCK -->
         <item>@string/app_ops_keep_device_awake</item>
         <!-- OP_MONITOR_LOCATION -->
-        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_monitor_location</item>
         <!-- OP_MONITOR_HIGH_POWER_LOCATION -->
-        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_monitor_high_power_location</item>
         <!-- OP_GET_USAGE_STATS -->
         <item>@string/app_ops_get_usage_stats</item>
         <!-- OP_MUTE_MICROPHONE -->
@@ -243,6 +243,8 @@
         <item>@string/app_ops_get_accounts</item>
         <!--OP_RUN_IN_BACKGROUND -->
         <item>@string/app_ops_run_in_background</item>
+        <!--OP_RUN_IN_BACKGROUND -->
+        <item>@string/app_ops_wake_from_idle</item>
     </string-array>
 
     <!-- WiFi calling mode array -->
