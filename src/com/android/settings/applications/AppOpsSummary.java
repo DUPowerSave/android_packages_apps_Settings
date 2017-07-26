@@ -49,7 +49,8 @@ public class AppOpsSummary extends InstrumentedFragment {
         AppOpsState.PERSONAL_TEMPLATE,
         AppOpsState.MESSAGING_TEMPLATE,
         AppOpsState.MEDIA_TEMPLATE,
-        AppOpsState.DEVICE_TEMPLATE
+        AppOpsState.DEVICE_TEMPLATE,
+        AppOpsState.RUN_IN_BACKGROUND_TEMPLATE
     };
 
     int mCurPos;

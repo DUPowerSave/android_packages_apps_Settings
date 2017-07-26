@@ -188,6 +188,7 @@
     <string name="app_ops_cat_messaging">Messaging</string>
     <string name="app_ops_cat_media">Media</string>
     <string name="app_ops_cat_device">Device</string>
+    <string name="app_ops_cat_idle">Idle</string>
     <string name="app_ops_access_camera">camera</string>
     <string name="app_ops_coarse_location">coarse location</string>
     <string name="app_ops_fine_location">fine location</string>
@@ -307,7 +308,5 @@
     <!-- Disable battery saver warning color -->
     <string name="battery_saver_color_title">Warning color</string>
     <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
-
-    <string name="background_processes_settings_title">Background processes</string>
 
 </resources>

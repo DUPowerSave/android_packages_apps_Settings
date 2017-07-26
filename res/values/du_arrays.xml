@@ -111,6 +111,7 @@
         <item>@string/app_ops_cat_messaging</item>
         <item>@string/app_ops_cat_media</item>
         <item>@string/app_ops_cat_device</item>
+        <item>@string/app_ops_cat_idle</item>
     </string-array>
 
     <!-- User display names for app ops codes -->

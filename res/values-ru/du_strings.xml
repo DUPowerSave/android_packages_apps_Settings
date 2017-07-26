@@ -156,6 +156,7 @@
   <string name="app_ops_cat_messaging">SMS/MMS</string>
   <string name="app_ops_cat_media">Мультимедиа</string>
   <string name="app_ops_cat_device">Устройство</string>
+  <string name="app_ops_cat_idle">Сон</string>
   <string name="app_ops_access_camera">камера</string>
   <string name="app_ops_coarse_location">приблизительное местоположение</string>
   <string name="app_ops_fine_location">точное местоположение</string>

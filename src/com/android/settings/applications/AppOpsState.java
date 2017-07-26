@@ -190,7 +190,7 @@ public class AppOpsState {
                     AppOpsManager.OP_CALL_PHONE,
                     AppOpsManager.OP_WRITE_SETTINGS,
                     AppOpsManager.OP_SYSTEM_ALERT_WINDOW,
-                    AppOpsManager.OP_WAKE_LOCK,
+		    AppOpsManager.OP_USE_FINGERPRINT,
                     AppOpsManager.OP_PROJECT_MEDIA,
                     AppOpsManager.OP_ACTIVATE_VPN,
                     AppOpsManager.OP_ASSIST_STRUCTURE,
@@ -209,8 +209,10 @@ public class AppOpsState {
 
     public static final OpsTemplate RUN_IN_BACKGROUND_TEMPLATE = new OpsTemplate(
             new int[] { AppOpsManager.OP_RUN_IN_BACKGROUND,
+		    AppOpsManager.OP_WAKE_LOCK,
 		    AppOpsManager.OP_WAKE_FROM_IDLE },
             new boolean[] { false, 
+		    false,
 		    false }
             );
 
@@ -441,7 +443,7 @@ public class AppOpsState {
         private final Collator sCollator = Collator.getInstance();
         @Override
         public int compare(AppOpEntry object1, AppOpEntry object2) {
-            if (object1.getSwitchOrder() != object2.getSwitchOrder()) {
+/*            if (object1.getSwitchOrder() != object2.getSwitchOrder()) {
                 return object1.getSwitchOrder() < object2.getSwitchOrder() ? -1 : 1;
             }
             if (object1.isRunning() != object2.isRunning()) {
@@ -451,7 +453,7 @@ public class AppOpsState {
             if (object1.getTime() != object2.getTime()) {
                 // More recent times go first.
                 return object1.getTime() > object2.getTime() ? -1 : 1;
-            }
+            }*/
             return sCollator.compare(object1.getAppEntry().getLabel(),
                     object2.getAppEntry().getLabel());
         }
