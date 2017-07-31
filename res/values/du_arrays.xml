@@ -106,12 +106,12 @@
 
     <!-- Names of categories of app ops tabs -->
     <string-array name="app_ops_categories_custom" translatable="false">
+        <item>@string/app_ops_cat_idle</item>
         <item>@string/app_ops_cat_location</item>
         <item>@string/app_ops_cat_personal</item>
         <item>@string/app_ops_cat_messaging</item>
         <item>@string/app_ops_cat_media</item>
         <item>@string/app_ops_cat_device</item>
-        <item>@string/app_ops_cat_idle</item>
     </string-array>
 
     <!-- User display names for app ops codes -->

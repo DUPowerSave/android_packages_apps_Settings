@@ -42,7 +42,7 @@ import java.util.List;
 
 public class AppOpsState {
     static final String TAG = "AppOpsState";
-    static final boolean DEBUG = false;
+    static final boolean DEBUG = true;
 
     final Context mContext;
     final AppOpsManager mAppOps;
@@ -194,7 +194,8 @@ public class AppOpsState {
                     AppOpsManager.OP_PROJECT_MEDIA,
                     AppOpsManager.OP_ACTIVATE_VPN,
                     AppOpsManager.OP_ASSIST_STRUCTURE,
-                    AppOpsManager.OP_ASSIST_SCREENSHOT},
+                    AppOpsManager.OP_ASSIST_SCREENSHOT,
+		    AppOpsManager.OP_RUN_IN_BACKGROUND},
             new boolean[] { false,
                     true,
                     true,
@@ -204,21 +205,20 @@ public class AppOpsState {
                     false,
                     false,
                     false,
-                    false }
+                    false,
+		    false }
             );
 
     public static final OpsTemplate RUN_IN_BACKGROUND_TEMPLATE = new OpsTemplate(
-            new int[] { AppOpsManager.OP_RUN_IN_BACKGROUND,
-		    AppOpsManager.OP_WAKE_LOCK,
+            new int[] { AppOpsManager.OP_WAKE_LOCK,
 		    AppOpsManager.OP_WAKE_FROM_IDLE },
-            new boolean[] { false, 
-		    false,
+            new boolean[] { false,
 		    false }
             );
 
     public static final OpsTemplate[] ALL_TEMPLATES = new OpsTemplate[] {
-            LOCATION_TEMPLATE, PERSONAL_TEMPLATE, MESSAGING_TEMPLATE,
-            MEDIA_TEMPLATE, DEVICE_TEMPLATE, RUN_IN_BACKGROUND_TEMPLATE
+            RUN_IN_BACKGROUND_TEMPLATE, LOCATION_TEMPLATE, PERSONAL_TEMPLATE, MESSAGING_TEMPLATE,
+            MEDIA_TEMPLATE, DEVICE_TEMPLATE
     };
 
     /**

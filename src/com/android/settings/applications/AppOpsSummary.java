@@ -45,12 +45,12 @@ public class AppOpsSummary extends InstrumentedFragment {
 
     CharSequence[] mPageNames;
     static AppOpsState.OpsTemplate[] sPageTemplates = new AppOpsState.OpsTemplate[] {
+        AppOpsState.RUN_IN_BACKGROUND_TEMPLATE,
         AppOpsState.LOCATION_TEMPLATE,
         AppOpsState.PERSONAL_TEMPLATE,
         AppOpsState.MESSAGING_TEMPLATE,
         AppOpsState.MEDIA_TEMPLATE,
         AppOpsState.DEVICE_TEMPLATE,
-        AppOpsState.RUN_IN_BACKGROUND_TEMPLATE
     };
 
     int mCurPos;
